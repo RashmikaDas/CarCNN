@@ -23,7 +23,6 @@ class Controls{
                 this.reverse=true;
                 break;
         }
-        console.table(this); // Log the current state of controls
     }
     document.onkeyup=(event)=>{
         switch(event.key){
@@ -40,7 +39,6 @@ class Controls{
                 this.reverse=false;
                 break;
         }
-        console.table(this); // Log the current state of controls
     }
 } 
 }
